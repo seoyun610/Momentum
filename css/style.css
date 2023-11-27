@@ -1,0 +1,183 @@
+.hidden{
+    display: none;
+}
+
+#Login ,#h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* 텍스트 색상은 필요에 따라 조절하세요. */
+}
+
+#clock {
+    font-size: 130px;
+    position: absolute;
+    top: 20%; /* 로그인 폼 위에 위치하도록 조절 */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* 텍스트 색상은 필요에 따라 조절하세요. */
+}
+#btnLogin {
+    /* 일반적인 버튼 스타일링 */
+    padding: 10px 20px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#name {
+    /* 일반적인 텍스트 입력 스타일링 */
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#name:focus {
+    /* 텍스트 입력 요소에 포커스가 있을 때의 스타일링 */
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none; /* 포커스 효과 제거 */
+}
+#btnLogin:hover {
+    background-color: #2980b9;
+    /* 마우스 호버 시 배경색 변경 */
+}
+#quote {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    color: white; /* 텍스트 색상은 필요에 따라 조절하세요. */
+    width: 80%; /* 요소의 가로 길이는 필요에 따라 조절하세요. */
+    text-align: center;
+}
+
+#formTodo {
+    text-align: center;
+    margin-bottom: 10px; /* 필요에 따라 여백 조절 */
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#formTodo input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#lstTodo {
+    text-align: left;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 60%;
+    left: 48%;
+    transform: translateX(-50%);
+    color: white; /* Set text color to white */
+}
+
+/* Style the button */
+#lstTodo button {
+    background-color: rgb(250, 77, 71); /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 5px 10px; /* Add padding for better appearance */
+    font-size: 15px; /* Adjust font size as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Optional: Add hover effect to the button */
+#lstTodo button:hover {
+    background-color: rgb(9, 3, 19); /* Darker color on hover */
+}
+
+
+
+
+.css-box-radius {
+     
+    opacity: none; 
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=71);
+    filter: alpha(opacity=71);
+
+    border-top-left-radius: 5px; 
+    -webkit-border-top-left-radius: 5px; 
+    -moz-border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    -webkit-border-top-right-radius: 5px; 
+    -moz-border-top-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    -webkit-border-bottom-left-radius: 5px; 
+    -moz-border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    -webkit-border-bottom-right-radius: 5px; 
+    -moz-border-bottom-right-radius: 5px; 
+
+    width: 350px;
+    height: 230px;
+    position: absolute;
+    top: 0; /* 상단으로 이동 */
+    right: 0; /* 오른쪽으로 이동 */
+}
+.css-text-shadow{
+    /*start ------------*/
+    color: #080808; 
+    font-size: 48px; 
+    font-weight: bold; 
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -webkit-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -moz-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+}
+
+#span1 { 
+    position: absolute;
+    top: 80px; /* 상단 여백 */
+    left: 20px; /* 좌측 여백 */
+    color: white; 
+    font-size: 28px; 
+    font-weight: normal; 
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -webkit-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -moz-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+}
+
+#span2 {
+    position: absolute;
+    top: 20px; /* 상단 여백 */
+    left: 20px; /* 좌측 여백 */
+    color: white; 
+    font-size: 48px; 
+    font-weight: normal; 
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -webkit-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -moz-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+}
+
+#span3 {
+    position: absolute;
+    top: 130px; /* 상단 여백 */
+    left: 140px; /* 좌측 여백 */
+    color: white; 
+    font-size: 74px; 
+    font-weight: normal; 
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -webkit-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+    -moz-text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1) ; 
+}
+
+#span4 {
+    position: absolute;
+    top: 150px; /* 상단 여백 */
+    left: 20px; /* 좌측 여백 */
+    width: 20px;
+    height: 20px;
+}
+
+

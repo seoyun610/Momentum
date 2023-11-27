@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>인덱스</title>
+
+</head>
+<style>
+    body {
+        background-repeat : no-repeat;
+        background-size : cover;
+        
+      }
+</style>
+<body>
+    <div id = "backPhoto">
+    <form id="Login">
+        <input required maxlength="10" type="text" id="name" placeholder="이름넣어줘">
+        <input id ="btnLogin" type="submit" value="Loing" />
+    </form>
+        <h1 id="h1" class="hidden"></h1>
+
+        <h2 id="clock"> 00:00:00 </h2>
+        
+
+
+    <div id="quote">
+        <span>명언</span><br>
+        <span>작가</span>
+    </div>
+
+
+    <form id="formTodo">
+        <input type="text" placeholder="What today's To Do?" required/>
+    </form>
+
+    <ul id="lstTodo">
+        
+    </ul>
+
+    <div id="weatherBox" class="css-box-radius">
+        <span id="span1">날씨</span><br>
+        <span id="span2">지역</span><br>
+        <span id="span3">온도</span>
+        <span id="span4"></span>
+</div>
+
+
+    <script src='js/script.js'></script>
+    <script src='js/time.js'></script>
+    <script src='js/quotes.js'></script>
+    <script src='js/photo.js'></script>
+    <script src='js/weather.js'></script>
+    <script src='js/todo.js'></script>
+</div>
+</body>
+</html>
